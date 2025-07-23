@@ -1,12 +1,14 @@
 [
   {
     "id": 1,
-    "title": "Урок 1: Введение",
+    "title": ".Приветствие,Выявление запроса",
     "icon": "https://via.placeholder.com/100",
-    "video": "https://drive.google.com/uc?export=download&id=VIDEO_FILE_ID_1",
+    "video": "https://drive.google.com/file/d/1aCP4vor2maD7JX-w9QVXFYV7P8xINy4a/view?usp=drive_link",
     "files": [
-      {"name": "Материал 1.pdf", "url": "https://drive.google.com/uc?export=download&id=FILE_ID_1"},
-      {"name": "Материал 2.pdf", "url": "https://drive.google.com/uc?export=download&id=FILE_ID_2"}
+      {"name": "Вопросы в работе с МАК Картами", "url": "https://docs.google.com/document/d/154gmijewHtQ5fm08zYbTIqOzOV0aDDKZ/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"},
+      {"name": "Вопросы про цель", "url": "https://docs.google.com/document/d/11b7KcZNyQib6pZ-5C-YoZwf8c68W3G8i/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"},
+      {"name": "Выявление запроса", "url": "https://docs.google.com/document/d/11emLQhsxg9ivsgE1gS-Rnu-Ay9dC6Ac_/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"},
+      {"name": "Шпаргалка в работу", "url": "https://docs.google.com/document/d/15DCP56bhoqekSC7ZxqjlzxjzMO_nTro6/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"},
     ]
   },
   {
