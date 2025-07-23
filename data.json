@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Урок 1: Введение",
+    "icon": "https://via.placeholder.com/100",
+    "video": "https://drive.google.com/uc?export=download&id=VIDEO_FILE_ID_1",
+    "files": [
+      {"name": "Материал 1.pdf", "url": "https://drive.google.com/uc?export=download&id=FILE_ID_1"},
+      {"name": "Материал 2.pdf", "url": "https://drive.google.com/uc?export=download&id=FILE_ID_2"}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Урок 2: Тема 2",
+    "icon": "https://via.placeholder.com/100",
+    "video": "https://drive.google.com/uc?export=download&id=VIDEO_FILE_ID_2",
+    "files": []
+  }
+  // ... до 36 уроков
+]
