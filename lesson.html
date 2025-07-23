@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Урок</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="telegram.js"></script>
+</head>
+<body>
+
+  <div id="lessonContainer" style="padding:10px;"></div>
+
+  <script src="app.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const lessonId = parseInt(urlParams.get('id'), 10);
+    fetch('data.json')
+      .then(resp => resp.json())
+      .then(data => {
+        const lesson = data.find(l => l.id === lessonId);
+        if (!lesson) {
+          document.body.innerHTML = '<p>Урок не найден</p>';
+          return;
+        }
+        const c = document.getElementById('lessonContainer');
+        c.innerHTML = `
+          <h2>${lesson.title}</h2>
+          <video width="100%" controls src="${lesson.video}"></video>
+          <h3>Материалы:</h3>
+          <ul id="filesList"></ul>
+        `;
+        const fl = document.getElementById('filesList');
+        lesson.files.forEach(file => {
+          const li = document.createElement('li');
+          li.innerHTML = `<a href="${file.url}" target="_blank">${file.name}</a>`;
+          fl.appendChild(li);
+        });
+      });
+  </script>
+
+</body>
+</html>
