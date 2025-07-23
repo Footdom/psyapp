@@ -1,22 +1,26 @@
 [
   {
     "id": 1,
-    "title": ".Приветствие,Выявление запроса",
+    "title": "Урок 1: Введение",
     "icon": "https://via.placeholder.com/100",
-    "video": "https://drive.google.com/file/d/1aCP4vor2maD7JX-w9QVXFYV7P8xINy4a/view?usp=drive_link",
+    "video": "https://drive.google.com/uc?export=download&id=1aCP4vor2maD7JX-w9QVXFYV7P8xINy4a",
     "files": [
-      {"name": "Вопросы в работе с МАК Картами", "url": "https://docs.google.com/document/d/154gmijewHtQ5fm08zYbTIqOzOV0aDDKZ/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"},
-      {"name": "Вопросы про цель", "url": "https://docs.google.com/document/d/11b7KcZNyQib6pZ-5C-YoZwf8c68W3G8i/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"},
-      {"name": "Выявление запроса", "url": "https://docs.google.com/document/d/11emLQhsxg9ivsgE1gS-Rnu-Ay9dC6Ac_/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"},
-      {"name": "Шпаргалка в работу", "url": "https://docs.google.com/document/d/15DCP56bhoqekSC7ZxqjlzxjzMO_nTro6/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"},
+      {
+        "name": "Вопросы по работе с МАК-картами",
+        "url": "https://docs.google.com/document/d/154gmijewHtQ5fm08zYbTIqOzOV0aDDKZ/export?format=pdf"
+      },
+      {
+        "name": "Вопросы про цели",
+        "url": "https://docs.google.com/document/d/11b7KcZNyQib6pZ-5C-YoZwf8c68W3G8i/export?format=pdf"
+      },
+      {
+        "name": "Выявление запроса",
+        "url": "https://docs.google.com/document/d/11emLQhsxg9ivsgE1gS-Rnu-Ay9dC6Ac_/export?format=pdf"
+      },
+      {
+        "name": "Шпаргалка в работу",
+        "url": "https://docs.google.com/document/d/15DCP56bhoqekSC7ZxqjlzxjzMO_nTro6/export?format=pdf"
+      }
     ]
-  },
-  {
-    "id": 2,
-    "title": "Урок 2: Тема 2",
-    "icon": "https://via.placeholder.com/100",
-    "video": "https://drive.google.com/uc?export=download&id=VIDEO_FILE_ID_2",
-    "files": []
   }
-  // ... до 36 уроков
 ]
