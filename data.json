@@ -60,3 +60,27 @@
     ]
   }
 ]
+[
+  {
+    "id": 3,
+    "title": "2.Низкая самооценка",
+    "icon": "https://github.com/Footdom/psyapp/blob/main/img/rukopozatie-mezdu-kollegami.jpg?raw=true",
+    "video": "https://drive.google.com/file/d/1aCP4vor2maD7JX-w9QVXFYV7P8xINy4a/preview",
+    "files": [
+      {
+        "name": "Вопросы по работе с МАК-картами",
+        "url": "https://docs.google.com/document/d/154gmijewHtQ5fm08zYbTIqOzOV0aDDKZ/export?format=pdf"
+      },
+      {
+        "name": "Вопросы про цели",
+        "url": "https://docs.google.com/document/d/11b7KcZNyQib6pZ-5C-YoZwf8c68W3G8i/export?format=pdf"
+      },
+      {
+        "name": "Выявление запроса",
+        "url": "https://docs.google.com/document/d/11emLQhsxg9ivsgE1gS-Rnu-Ay9dC6Ac_/export?format=pdf"
+      },
+      {
+        "name": "Шпаргалка в работу",
+        "url": "https://docs.google.com/document/d/15DCP56bhoqekSC7ZxqjlzxjzMO_nTro6/export?format=pdf"
+      }
+    ]
