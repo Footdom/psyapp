@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Курс по психологии</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <script src="telegram.js"></script>
 </head>
 <body>
-
+  <h1 style="text-align:center; padding:10px;">Курс по психологии</h1>
   <div class="grid" id="lessonsGrid"></div>
 
   <script src="app.js"></script>
   <script>
-    // Отображаем 36-уроковую сетку
     fetch('data.json')
-      .then(resp => resp.json())
+      .then(res => res.json())
       .then(data => {
         const grid = document.getElementById('lessonsGrid');
         data.forEach(lesson => {
           const card = document.createElement('div');
           card.className = 'lesson-card';
           card.innerHTML = `
-            <img src="${lesson.icon}" alt="${lesson.title}">
-            <div class="lesson-card-title">${lesson.title}</div>`;
+            <img src="${lesson.icon}" alt="${lesson.title}" />
+            <div class="lesson-card-title">${lesson.title}</div>
+          `;
           card.onclick = () => {
-            Telegram.WebApp.openLink(`lesson.html?id=${lesson.id}`);
-          }
+            window.location.href = `lesson.html?id=${lesson.id}`;
+          };
           grid.appendChild(card);
         });
       });
   </script>
-
 </body>
 </html>
