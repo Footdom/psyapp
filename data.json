@@ -20,7 +20,44 @@
       {
         "name": "Шпаргалка в работу",
         "url": "https://docs.google.com/document/d/15DCP56bhoqekSC7ZxqjlzxjzMO_nTro6/export?format=pdf"
-      }
+      },
+      {
+  "id": 1,
+  "title": "1.Работа с тревожностью и паническими атаками",
+  "icon": "https://github.com/Footdom/psyapp/blob/main/img/иконка13.jpg?raw=true",
+  "video": "https://drive.google.com/file/d/19xuKvQ6yNs7eH3ScYnap7mg8WgTMbhMP/preview",
+  "files": [
+    {
+      "name": "Памятка тревожность и панические атаки",
+      "url": "https://docs.google.com/uc?export=download&id=1-WoM321UQnyr7CjZGpDk-XVzHDHYR99l"
+    },
+    {
+      "name": "Тест для работы",
+      "url": "https://docs.google.com/uc?export=download&id=1-BxTXcw3d-XPqZAoaWRfgxEsEIw3SPqU"
+    },
+    {
+      "name": "Тест на панические атаки",
+      "url": "https://docs.google.com/document/d/17mjGD3pKrs8YEzkqmZu1vfY4LOWy5giXEnmt7t_HVpo/export?format=pdf"
+    },
+    {
+      "name": "Сканирование тела",
+      "url": "https://docs.google.com/uc?export=download&id=1178xruCKQ99jSjo2q92OqgMOvChm6eQC"
+    },
+    {
+      "name": "Напряжение тела",
+      "url": "https://docs.google.com/uc?export=download&id=1116SfeGke_CdkGxrSW93NfZsT5kzjfDi"
+    },
+    {
+      "name": "Крылья бабочки",
+      "url": "https://docs.google.com/uc?export=download&id=10k5cXy7iYGz8exP-nl4tOf-YXPNvX6GX"
+    },
+    {
+      "name": "Волшебное превращение",
+      "url": "https://docs.google.com/uc?export=download&id=10emdviZY5LTPHJgO4YgYSy6Tj8a9VkDT"
+    }
+  ]
+}
+
     ]
   }
 ]
