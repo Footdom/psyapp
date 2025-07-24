@@ -138,5 +138,29 @@
         "url": "https://docs.google.com/document/d/10dYeyFLMmGI_pcdLvGhN_VL73OnR1ozP/edit?usp=sharing&ouid=114440731780628101647&rtpof=true&sd=true"
       }
     ]
+  },
+  {
+    "id": 6,
+    "title": "4.Отношения с отцом",
+    "icon": "https://github.com/Footdom/psyapp/blob/main/img/%D0%BE%D1%82%D0%BD%D0%BC%D0%B0%D0%BC.jpg?raw=true",
+    "video": "https://drive.google.com/file/d/15NgE1BfLMfrTPkiCbi9whi6mEBUKfPnr/view?usp=sharing",
+    "files": [
+      {
+        "name": "Памятка Отношения с мамой",
+        "url": "https://drive.google.com/file/d/1-_HWpGTjj54htHb0tqmmVj58UODqK9ZU/view?usp=sharing"
+      },
+      {
+        "name": "Ссылка на Книгу Спенст Д.6 минут",
+        "url": "https://docs.google.com/document/d/1GN-2KWRNyZ3jzCyLptDgva7ARRc775TJnqkQGzfyO1Q/edit?usp=sharing"
+      },
+      {
+        "name": "Тест для работы",
+        "url": "https://docs.google.com/document/d/1e0EMWOB4q5QhdM-5spt4v5HSym6obCjUp8viiI3qc14/edit?usp=sharing"
+      },
+      {
+        "name": "Техника Пустой стул",
+        "url": "https://docs.google.com/document/d/10dYeyFLMmGI_pcdLvGhN_VL73OnR1ozP/edit?usp=sharing&ouid=114440731780628101647&rtpof=true&sd=true"
+      }
+    ] 
   }
 ]
