@@ -4,21 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Секреты практикующего психолога</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="telegram.js"></script>
   <style>
+    :root {
+      --bg-color-light: #f5f4f1;
+      --bg-color-dark: #1c1c1e;
+      --text-color-light: #2b2b2b;
+      --text-color-dark: #ffffff;
+    }
+
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: var(--bg-color-light, #f5f4f1);
-      color: var(--text-color-light, #2b2b2b);
+      background: var(--bg-color-light);
+      color: var(--text-color-light);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    body.dark {
+      background: var(--bg-color-dark);
+      color: var(--text-color-dark);
     }
 
     h1 {
       text-align: center;
       padding: 20px 10px 10px;
-      font-size: 24px;
-      font-weight: 700;
+      font-size: 1.5rem;
+      font-weight: bold;
     }
 
     .search-bar {
@@ -55,24 +66,27 @@
       height: 220px;
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
       align-items: center;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s, box-shadow 0.3s;
       cursor: pointer;
       opacity: 0;
       transform: translateY(20px);
       animation: fadeInUp 0.6s ease forwards;
     }
 
+    body.dark .lesson-card {
+      background: #2c2c2e;
+    }
+
     .lesson-card:hover {
       transform: translateY(-6px) scale(1.03);
-      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 10px 24px rgba(0,0,0,0.1);
     }
 
     .lesson-card img {
       width: 100%;
-      aspect-ratio: 1 / 1;
+      aspect-ratio: 1/1;
       object-fit: cover;
       border-radius: 12px;
     }
@@ -108,41 +122,41 @@
 
   <div class="lesson-grid" id="lessonsGrid"></div>
 
-  <script src="app.js"></script>
   <script>
-    const grid = document.getElementById('lessonsGrid');
     const searchInput = document.getElementById('searchInput');
-
+    const grid = document.getElementById('lessonsGrid');
     let lessons = [];
 
-    function renderLessons(filteredLessons) {
+    function renderLessons(items) {
       grid.innerHTML = '';
-      filteredLessons.forEach((lesson, i) => {
+      items.forEach((lesson, i) => {
         const card = document.createElement('div');
         card.className = 'lesson-card';
-        card.style.animationDelay = `${i * 40}ms`; // staggered animation
-
+        card.style.animationDelay = `${i * 50}ms`;
         card.innerHTML = `
-          <img src="${lesson.icon}" alt="${lesson.title}" />
+          <img src="${lesson.icon}" alt="${lesson.title}">
           <div class="lesson-card-title">${lesson.title}</div>
         `;
-        card.onclick = () => {
-          window.location.href = \`lesson.html?id=${lesson.id}\`;
-        };
+        card.onclick = () => location.href = `lesson.html?id=${lesson.id}`;
         grid.appendChild(card);
       });
     }
 
     fetch('data.json')
-      .then(res => res.json())
+      .then(res => {
+        console.log('Fetch status:', res.status);
+        return res.json();
+      })
       .then(data => {
+        console.log('Loaded lessons:', data);
         lessons = data;
         renderLessons(lessons);
-      });
+      })
+      .catch(err => console.error('Ошибка загрузки data.json:', err));
 
-    searchInput.addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase().trim();
-      const filtered = lessons.filter(l => l.title.toLowerCase().includes(query));
+    searchInput.addEventListener('input', () => {
+      const q = searchInput.value.toLowerCase().trim();
+      const filtered = lessons.filter(l => l.title.toLowerCase().includes(q));
       renderLessons(filtered);
     });
   </script>
