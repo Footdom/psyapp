@@ -209,6 +209,22 @@
         "name": "Техника Пустой стул",
         "url": "https://docs.google.com/document/d/15dioP_pUprAI3Gy9UGeR8OanVZh2EcYq/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"
       }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "8.Усталость и выгорание",
+    "icon": "https://github.com/Footdom/psyapp/blob/main/img/%D1%83%D1%81%D1%82%D0%B2%D1%8B%D0%B3%D0%BE%D1%80.jpg?raw=true",
+    "video": "https://drive.google.com/file/d/1vthbVw9J839KzuvBWFILq8_1eUTqhnqX/preview",
+    "files": [
+      {
+        "name": "Памятка Усталость и выгорание",
+        "url": "https://drive.google.com/file/d/1j62F-5ZSp_wVveGWPUJOvJ-MMbeLAaot/view?usp=drive_link"
+      },
+      {
+        "name": "Тест для работы",
+        "url": "https://docs.google.com/document/d/1QA2lBa3-UkzXzCTdQOBGScWVVBL8-zoWkMKJoD0caxY/edit?usp=drive_link"
+      },
     ]  
   }
 ]
