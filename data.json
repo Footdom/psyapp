@@ -225,6 +225,30 @@
         "name": "Тест для работы",
         "url": "https://docs.google.com/document/d/1QA2lBa3-UkzXzCTdQOBGScWVVBL8-zoWkMKJoD0caxY/edit?usp=drive_link"
       }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "9.Личные границы",
+    "icon": "https://github.com/Footdom/psyapp/blob/main/img/%D0%BB%D0%B8%D1%87%D0%B3%D1%80%D0%B0%D0%BD.jpg?raw=true",
+    "video": "https://drive.google.com/file/d/1ten4Hu4Grkrs2YcgEoqiA-HKpztkhF55/preview",
+    "files": [
+      {
+        "name": "Памятка Личные границы",
+        "url": "https://drive.google.com/file/d/1-lpLdd64PVunm12EPEaya08GaeYyt1tx/view?usp=drive_link"
+      },
+      {
+        "name": "Тест для работы",
+        "https://docs.google.com/document/d/1tjM65F7Whwo_iSbOv1BlpJolX9ifxJOjsnzxVivKvzU/edit?usp=drive_link"
+      },
+      {
+        "name": "Дополнительная техника ",
+        "https://docs.google.com/document/d/16giZ_QgE4x1GOOaZfv4p63185KkbnZPD/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"
+      }
+      {
+        "name": "Техника я оружие",
+        "https://docs.google.com/document/d/1NNPPt6QUrivcjv8-IgjA0ObYGMlq7BRe0QyjDGO9z60/edit?usp=drive_link"
+      }
     ]  
   }
 ]
