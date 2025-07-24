@@ -1,3 +1,4 @@
-if (!window.Telegram) {
-  window.Telegram = { WebApp: { openLink: href => window.location.href = href } };
+async function fetchLessonData(id) {
+  const data = await fetch('data.json').then(r => r.json());
+  return data.find(l => l.id === id);
 }
