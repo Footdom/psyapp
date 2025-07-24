@@ -9,9 +9,15 @@
 </head>
 <body>
   <div class="container">
+
+    <!-- Кнопка Назад -->
+    <button class="back-button" onclick="window.location.href='index.html'">
+      ← Назад к урокам
+    </button>
+
     <h2 id="lessonTitle">Загрузка...</h2>
 
-    <!-- Видео через iframe -->
+    <!-- Видео -->
     <iframe
       id="videoPlayer"
       width="100%"
@@ -19,7 +25,7 @@
       allow="autoplay"
       frameborder="0"
       allowfullscreen
-      style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     </iframe>
 
     <h3 style="margin-top: 24px;">Материалы:</h3>
@@ -42,11 +48,8 @@
       }
 
       document.getElementById('lessonTitle').innerText = lesson.title;
-
-      // Подключаем видео через iframe
       document.getElementById('videoPlayer').src = lesson.video;
 
-      // Добавляем файлы
       const fl = document.getElementById('filesList');
       lesson.files.forEach(f => {
         const li = document.createElement('li');
