@@ -114,5 +114,33 @@
         "url": "https://drive.google.com/uc?export=download&id=12rdzkyW2IKPnuWMO0Mip-gueLCyczmaE"
       }
     ]
+ },
+  {
+    "id": 5,
+    "title": "4.Отношения с мамой",
+    "icon": "https://github.com/Footdom/psyapp/blob/main/img/%D0%BE%D1%82%D0%BD%D0%BF%D0%B0%D1%80%D1%82.jpg?raw=true",
+    "video": "https://drive.google.com/file/d/1hKn_TXckfJgUe9lBhHwQS14rABac65MB/preview",
+    "files": [
+      {
+        "name": "Памятка Отношения с партнером",
+        "url": "https://drive.google.com/uc?export=download&id=1-XwgSsiXqm46FrwPTRrBRcrtldExmEMJ"
+      },
+      {
+        "name": "Тест для работы 1",
+        "url": "https://docs.google.com/document/d/1cY81kIU7bjr7ZPY4EKDsSa556Yh6SJeLM-XooyDI_Rw/export?format=pdf"
+      },
+      {
+        "name": "Тест для работы",
+        "url": "https://drive.google.com/uc?export=download&id=1-HwnfsITbquzN_w0hn3I_9V0tOxmmaAB"
+      },
+      {
+        "name": "Техника Пустой стул",
+        "url": "https://docs.google.com/document/d/129xv3aN1p5XrdJjwQmycp_-YTA1TGFOi/export?format=pdf"
+      },
+      {
+        "name": "Циркулярное интервью",
+        "url": "https://drive.google.com/uc?export=download&id=12rdzkyW2IKPnuWMO0Mip-gueLCyczmaE"
+      }
+    ]
   }
 ]
