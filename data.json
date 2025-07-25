@@ -365,6 +365,34 @@
         "name": "Тест в работу",
         "url": "https://docs.google.com/document/d/1pXHuD6-UXyFGjeeTbPg_-y6dTYRR4VVNP3K-QkEBYNw/edit?usp=drive_link"
       }
+    ] 
+   },
+  {
+    "id": 16,
+    "title": "15.Подавленные эмоции",
+    "icon": "https://github.com/Footdom/psyapp/blob/main/img/%D0%BF%D0%BE%D0%B4%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%8D%D0%BC%D0%BE%D1%86%D0%B8%D0%B9.jpg?raw=true",
+    "video": "https://drive.google.com/file/d/1-H90zhKxLj60WRn_2l_M0apmzeuXb3Sq/preview",
+    "files": [
+      {
+        "name": "Дополнительная техника ",
+        "url": "https://docs.google.com/document/d/173x6xh1N8oaNfjmc-8Ht8T9j6YVa5mtC/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"
+      },
+      {
+        "name": "Памятка Подавленные эмоции",
+       "url": "https://drive.google.com/file/d/19qn_h5f7h3_mbVsrN137jm4Fiuo8NyXx/view?usp=drive_link"
+      },
+       {
+        "name": "Работа с образами",
+        "url": "https://docs.google.com/document/d/165-kXgVkFVwv5-XoFqTMFnOwJ7xTCJ3K/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"
+      },
+      {
+        "name": "Тест в работу",
+       "url": "https://docs.google.com/document/d/1WYvriZWxIUKdKqCfq_hAmOHPlu_fKkLhj4nmWUBboYg/edit?usp=drive_link"
+      },
+      {
+        "name": "Техника страшная сказка",
+        "url": "https://docs.google.com/document/d/1cPsegZomG7aezEL-npgGpT_MuB6XuAduZEJtk13DHow/edit?usp=drive_link"
+      }
     ]    
   }
 ]
