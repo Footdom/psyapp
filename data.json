@@ -710,5 +710,25 @@
        "url": "https://docs.google.com/document/d/1Zs2xQ4HYn8XkPewFphRqXypiasw0erDXtGC5ypK6AKw/edit?usp=drive_link"
      }
     ]
+   },
+  {
+    "id": 33,
+    "title": "32.Баланс между работой и личной жизнью.",
+    "icon": "https://github.com/Footdom/psyapp/blob/main/img/%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.jpg?raw=true",
+    "video": "https://drive.google.com/file/d/1WKWCcYGePKZty58KGAp556_3h21fjl1p/preview",
+    "files": [
+      {
+        "name": "Памятка Баланс между работой и личной жизнью",
+        "url": "https://drive.google.com/file/d/1SVjN84A5NSCIdEp7tyO15Wb2XaiLbn1L/view?usp=drive_link"
+      },
+      {
+        "name": "Тест в работу",
+       "url": "https://docs.google.com/document/d/19l99AwX-_bfHnExAUI1D2fyDW7ftV023dpDpm8ZRksg/edit?usp=drive_link"
+     },
+     {
+        "name": "Вопросы в работе с МАК",
+       "url": "https://docs.google.com/document/d/139B-VU-5u35M1GEfUd3L-0gB1RdhkQJc/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"
+     } 
+    ]
   }
 ]
