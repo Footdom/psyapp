@@ -754,5 +754,21 @@
        "url": "https://docs.google.com/spreadsheets/d/14bay6qigfQdH6f3dYTxCrJ9N82ccakJX/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"
      },
     ]
+  },
+  {
+    "id": 35,
+    "title": "34.Зависть",
+    "icon": "https://github.com/Footdom/psyapp/blob/main/img/%D0%B7%D0%B0%D0%B2%D0%B5%D1%81%D1%82%D1%8C.jpg?raw=true",
+    "video": "https://drive.google.com/file/d/1GtLj90CshdMwhaXprZaoZc_B6EGeWOFi/preview",
+    "files": [
+      {
+        "name": "Памятка Зависть",
+        "url": "https://drive.google.com/file/d/13MWzFvqqV3kfbwPC2N_2H22gwqxR0cav/view?usp=drive_link"
+      },
+      {
+        "name": "Тест в работу",
+       "url": "https://docs.google.com/document/d/1IertlMS6NVoTPfGexEa-uGo_pXK-sSCzTZmy9iNDFKo/edit?usp=drive_link"
+     }
+    ]
   }
 ]
