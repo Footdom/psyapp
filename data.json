@@ -534,5 +534,25 @@
        "url": "https://docs.google.com/document/d/16O9CylU1INP-xjodd3sHjQnanFhYH8V-ZZB6x1s4RtA/edit?usp=drive_link"
       }
     ]
+  },
+  {
+    "id": 24,
+    "title": "23.Работа с депрессией",
+    "icon": "https://github.com/Footdom/psyapp/blob/main/img/%D0%B4%D0%B5%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%B8%D1%8F.jpg?raw=true",
+    "video": "https://drive.google.com/file/d/1KC0jOS-uR6MvBVykpNWytideGPN4lvt4/preview",
+    "files": [
+      {
+        "name": "Памятка Работа с клиентами в депрессии",
+        "url": "https://drive.google.com/file/d/1IRKxf9N-weIIoj36E7FN27RxiguKWxph/view?usp=drive_link"
+      },
+      {
+        "name": "Тест на уровень дипресии",
+       "url": "https://drive.google.com/file/d/11EFiH5QwnX8woqEKTuaNJ8_dITIpTltp/view?usp=drive_link"
+      },
+      {
+        "name": "Дополнительная техника ",
+       "url": "https://docs.google.com/document/d/16lcFcdPV_i15T-qd0uG6RNKjrpCLNL0y/edit?usp=drive_link&ouid=114440731780628101647&rtpof=true&sd=true"
+      }
+    ]
   }
 ]
