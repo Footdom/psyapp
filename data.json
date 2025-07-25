@@ -678,5 +678,21 @@
        "url": "https://docs.google.com/document/d/11MuOZEERPj9VAGlGJK4SxLW0S4nXaENiBmgnfvWkIcY/edit?usp=drive_link"
      }
     ]
+  },
+  {
+    "id": 31,
+    "title": "30.Забота о себе",
+    "icon": "https://github.com/Footdom/psyapp/blob/main/img/%D0%B7%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%BE%20%D1%81%D0%B5%D0%B1%D0%B5.jpg?raw=true",
+    "video": "https://drive.google.com/file/d/1E211l-9hdNYtPhvhNUYZ_svI-_pI665m/preview",
+    "files": [
+      {
+        "name": "Памятка Забота о себе",
+        "url": "https://drive.google.com/file/d/1o5V7655yrkG1TSQd0VivQKrTqDLI2Z0K/view?usp=drive_link"
+      },
+      {
+        "name": "Тест в работу",
+       "url": "https://docs.google.com/document/d/1H_cWZEeH4NbgGI_Th5mYZUOaUi6XAEHaq4CyrSE2i3A/edit?usp=drive_link"
+     }
+    ]
   }
 ]
