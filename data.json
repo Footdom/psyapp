@@ -790,5 +790,25 @@
        "url": "https://docs.google.com/document/d/1Pm9yR1M6p-d37iJtKFxCTHN0bvoWR_RUjdgPfnxNHM8/edit?usp=drive_link"
      }
     ]
+  },
+  {
+    "id": 37,
+    "title": "36.Деньги",
+    "icon": "https://github.com/Footdom/psyapp/blob/main/img/%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8.jpg?raw=true",
+    "video": "https://drive.google.com/file/d/14tw6sDUho6Ct33MvMfQOv0a-Wt13-NZc/preview",
+    "files": [
+      {
+        "name": "Памятка Деньги",
+        "url": "https://drive.google.com/file/d/1LXOdXoBlMDmyJgLkyxuiBNJhUU0onJla/view?usp=drive_link"
+      },
+      {
+        "name": "Практика на освобождение от страхов,блоков,негативных программ связанных с деньгами.",
+       "url": "https://docs.google.com/document/d/1BtOFdx-DTospQe29Hm4npEtJTPq5S_kHanWLPrNwL4g/edit?usp=drive_link"
+     },
+     {
+        "name": "Тест в работу",
+       "url": "https://docs.google.com/document/d/1mvU2ooa93cXeQgJgxRojKodMemeJuhwTnxi9Hf3d0yU/edit?usp=drive_link"
+     }
+    ] 
   }
 ]
